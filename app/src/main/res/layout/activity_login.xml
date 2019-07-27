@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/bestback">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bestback"
+        >
+
+
+
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        >
+
+
+
+        <TextView
+            android:id="@+id/wolf"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:textColor="#ffffff"
+            android:background="@drawable/logohomefilescenter2"
+            android:layout_marginTop="50dp"
+            android:layout_centerHorizontal="true"/>
+
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign In"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="19dp"
+            android:padding="16dp"
+            android:gravity="center"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/button_disabled"
+            android:layout_marginBottom="35dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="-05dp">
+
+            <AutoCompleteTextView
+                android:textColor="#fff"
+                android:id="@+id/email"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:background="@drawable/bestback2"
+                android:layout_marginTop="220dp"
+                android:hint="Email"
+                android:textColorHint="#fff"
+                android:textStyle="bold"
+                android:paddingLeft="20dp"
+                android:drawableLeft="@drawable/email"
+                android:paddingTop="16dp"
+                android:paddingBottom="16dp"
+                android:drawablePadding="16dp">
+            </AutoCompleteTextView>
+
+            <AutoCompleteTextView
+                android:textColor="#fff"
+                android:id="@+id/password"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:background="@drawable/bestback2"
+                android:layout_marginTop="20dp"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:textColorHint="#fff"
+                android:drawableLeft="@drawable/pass"
+                android:paddingLeft="20dp"
+                android:drawablePadding="16dp"
+                android:paddingTop="16dp"
+                android:paddingBottom="16dp">
+            </AutoCompleteTextView>
+        </LinearLayout>
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:padding="16dp"
+            android:gravity="left"
+
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Visit HoMeFiLEsCenTer" />
+        <item
+            android:id="@+id/feedback"
+            android:padding="16dp"
+            android:gravity="left"
+
+            android:icon="@drawable/feed"
+            android:title="Feedback" />
+        <item
+            android:id="@+id/features"
+            android:padding="16dp"
+            android:gravity="left"
+
+            android:icon="@drawable/services"
+            android:title="Features" />
+        <item
+            android:id="@+id/blog"
+            android:padding="16dp"
+            android:gravity="left"
+
+            android:icon="@drawable/dismiss"
+            android:title="Blog" />
+
+
+
+
+
+
+    </group>
+
+    <item android:title="General App Info">
+        <menu>
+            <item
+                android:id="@+id/terms"
+                android:icon="@drawable/terms"
+                android:padding="16dp"
+                android:gravity="left"
+
+                android:title="Terms and Conditions" />
+            <item
+                android:id="@+id/privacy"
+                android:icon="@drawable/privacy"
+                android:padding="16dp"
+                android:gravity="left"
+
+                android:title="Privacy Policies" />
+            <item
+                android:id="@+id/aboutus"
+                android:icon="@drawable/why"
+                android:padding="16dp"
+                android:gravity="left"
+
+                android:title="Developer info" />
+            <item
+                android:id="@+id/contactus"
+                android:icon="@drawable/call"
+                android:padding="16dp"
+                android:gravity="left"
+
+                android:title="Reach us" />
+        </menu>
+    </item>
+
+</menu>

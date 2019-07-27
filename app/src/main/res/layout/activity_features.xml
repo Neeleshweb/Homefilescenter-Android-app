@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@+id/myscroll"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+    android:background="@drawable/bestback2"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.homefilescenter.dynamicrankingplatform.mega.homefilescenterofficial.Features">
+
+        <TextView
+            android:id="@+id/features"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="19dp"
+            android:text="The apps description is provided on the home page of the app or you can watch a demo video as well.Here we have listed the features we provide you:"
+            android:padding="16dp"
+            android:gravity="center"
+
+            android:background="@drawable/textview"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:id="@+id/feature1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textColor="#000000"
+            android:textSize="19dp"
+            android:text="(*)-Make your account,or login to it if you already have one."
+            android:padding="16dp"
+            android:gravity="center"
+
+            android:background="@drawable/textview2"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:id="@+id/feature2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textColor="#000000"
+            android:textSize="19dp"
+            android:text="(*)-Now you can give reviews to default categories or you can add your own category as well"
+            android:padding="16dp"
+            android:gravity="center"
+
+            android:background="@drawable/textview2"
+            android:layout_marginTop="30dp"/>
+        <TextView
+            android:id="@+id/feature3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textColor="#000000"
+            android:textSize="19dp"
+            android:text="(*)-A simple test of 5 mins to check whether you are a potential customer to add your category or not"
+            android:padding="16dp"
+            android:gravity="center"
+
+            android:background="@drawable/textview2"
+            android:layout_marginTop="30dp"/>
+        <TextView
+            android:id="@+id/feature4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textColor="#000000"
+            android:textSize="19dp"
+            android:text="(*)-You can view your profile and edit your profile.Soon we will add share feature also"
+            android:padding="16dp"
+            android:gravity="center"
+
+            android:background="@drawable/textview2"
+            android:layout_marginTop="30dp"/>
+        <TextView
+            android:id="@+id/feature5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textColor="#000000"
+            android:textSize="19dp"
+            android:text="(*)-You can also view your custom added categories in the category vault section"
+            android:padding="16dp"
+            android:gravity="center"
+
+            android:background="@drawable/textview2"
+            android:layout_marginTop="30dp"/>
+        <TextView
+            android:id="@+id/feature6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textColor="#000000"
+            android:textSize="19dp"
+            android:text="(*)-We have also provided the facility to send text sms as well in home screen"
+            android:padding="16dp"
+            android:gravity="center"
+
+            android:background="@drawable/textview2"
+            android:layout_marginTop="30dp"/>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bestback2"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.homefilescenter.dynamicrankingplatform.mega.homefilescenterofficial.Page2">
+
+    <TextView
+        android:id="@+id/page2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:textColor="#000000"
+        android:textSize="19dp"
+        android:text="WHICH IS THE MOST VISITED WEBSITE IN WORLD TILL TODAY"
+        android:padding="16dp"
+        android:gravity="center"
+
+        android:background="@drawable/textview"
+        android:layout_marginTop="10dp"/>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/textview2"
+        android:id="@+id/r2"
+        >
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Facebook"
+            android:layout_gravity="left"
+            android:id="@+id/radioButt" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="Youtube"
+            android:id="@+id/radioButton6" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="Google"
+            android:id="@+id/radioButton7" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="Amazon"
+            android:id="@+id/radioButton8" />
+    </RadioGroup>
+
+    <Button
+        android:layout_width="251dp"
+        android:layout_height="wrap_content"
+        android:text="NEXT"
+        android:id="@+id/b2"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:background="@drawable/button_pressed"
+
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
+

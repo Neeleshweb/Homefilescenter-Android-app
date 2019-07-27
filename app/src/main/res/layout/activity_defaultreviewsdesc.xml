@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bestback"
+    android:id="@+id/scrollView0"
+    android:fillViewport="false"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.homefilescenter.dynamicrankingplatform.mega.homefilescenterofficial.Defaultreviewsdesc">
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textColor="#000000"
+            android:textSize="19dp"
+            android:text="READ THE INSTRUCTIONS BEFORE PROCEEDING"
+            android:padding="16dp"
+            android:gravity="center"
+
+            android:background="@drawable/textview"
+            android:layout_marginTop="10dp"/>
+
+
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="19dp"
+            android:text="INSTRUCTIONS"
+            android:padding="16dp"
+            android:gravity="center"
+
+            android:background="@drawable/bestback2"
+            android:layout_marginTop="100dp"/>
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="19dp"
+            android:text="Here you can give your reviews about a product from a list of products which you will see on next page.
+        So here you have to select any one product about which you want to express your reviews after you have used it.Once you have done that,you can see your posted review on your home wall just by clicking a button,and everyone else too can see your reviews and then decide accordingly whether to purchase that product or avoid it.So go give your review and enjoyy!!!"
+            android:padding="16dp"
+            android:gravity="center"
+
+            android:background="@drawable/bestback2"
+            android:layout_marginTop="170dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PROCEED TO GIVE REVIEW"
+            android:id="@+id/button17"
+android:background="@drawable/button_focused"
+            android:layout_marginTop="550dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            />
+
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_settings9"
+        android:orderInCategory="100"
+        android:title="SETTINGS"
+        app:showAsAction="never"
+
+
+        />
+    <item
+        android:id="@+id/action_settings10"
+        android:orderInCategory="100"
+        android:title="EDIT PROFILE"
+        app:showAsAction="never"
+
+        />
+    <item
+        android:id="@+id/action_settings11"
+        android:orderInCategory="100"
+        android:title="VIEW PROFILE"
+        app:showAsAction="never"
+
+        />
+
+    <item
+        android:id="@+id/notify"
+        android:orderInCategory="100"
+        android:title="NOTIFICATIONS"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/notify2"/>
+
+    <item
+        android:id="@+id/action_settings13"
+        android:orderInCategory="100"
+        android:title="ABOUT US"
+        app:showAsAction="never"
+
+        />
+
+
+    <item
+        android:id="@+id/action_settings7"
+        android:orderInCategory="100"
+        android:title="LOGOUT"
+        app:showAsAction="never"
+
+        />
+    <item
+        android:id="@+id/action_settings8"
+        android:orderInCategory="100"
+        android:title=""
+        app:showAsAction="ifRoom"
+        android:icon="@android:drawable/ic_dialog_dialer"/>
+</menu>

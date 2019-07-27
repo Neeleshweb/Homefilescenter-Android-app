@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    >
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings1"
+        app:showAsAction="never" />
+
+
+
+
+
+    <item
+        android:id="@+id/action_settings6"
+        android:orderInCategory="100"
+        android:title="LOGIN"
+        app:showAsAction="never"
+
+        />
+    <item
+        android:id="@+id/action_settings0"
+        android:orderInCategory="100"
+        android:title="ABOUT US"
+        app:showAsAction="never"
+
+        />
+
+    <item
+        android:id="@+id/action_settings3"
+        android:orderInCategory="100"
+        android:title="message"
+        app:showAsAction="ifRoom"
+        android:icon="@android:drawable/ic_dialog_email"/>
+    />
+    <item
+        android:id="@+id/action_settings4"
+        android:orderInCategory="100"
+        android:title="@string/exit"
+        app:showAsAction="never" />
+</menu>

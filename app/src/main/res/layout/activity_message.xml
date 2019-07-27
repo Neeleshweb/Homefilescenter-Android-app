@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:id="@+id/scrollView4"
+    android:background="@drawable/bestback"
+    android:fillViewport="false"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:background="@drawable/bestback"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.homefilescenter.dynamicrankingplatform.mega.homefilescenterofficial.Message">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textColor="#000000"
+            android:textSize="19dp"
+            android:text="PLEASE TYPE THE MESSAGE IN BELOW GIVEN BOX"
+            android:padding="16dp"
+            android:gravity="center"
+
+            android:background="@drawable/textview2"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="330dp"
+
+            android:textColor="#000000"
+            android:textSize="19dp"
+            android:hint="START TYPING FROM HERE....."
+            android:padding="16dp"
+            android:gravity="center"
+
+            android:background="@drawable/textview"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textColor="#000000"
+            android:textSize="19dp"
+            android:text="PLEASE ENTER THE RECIPIENT NUMBER:"
+            android:padding="16dp"
+            android:gravity="center"
+
+            android:background="@drawable/textview2"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textColor="#000000"
+            android:textSize="19dp"
+            android:hint="START TYPING THE NUMBER...."
+            android:padding="16dp"
+            android:gravity="center"
+
+            android:background="@drawable/textview"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SEND MESSAGE"
+            android:layout_gravity="center"
+            style="@style/TextColor"
+            android:id="@+id/button4"
+            android:background="@drawable/button_disabled"
+            android:layout_below="@+id/editText2"
+
+
+            />
+
+    </LinearLayout>
+</ScrollView>
